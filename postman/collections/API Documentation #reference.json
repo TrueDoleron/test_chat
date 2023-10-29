@@ -1283,12 +1283,26 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/info",
+							"raw": "{{base_url}}/info?test=asdasd",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"info"
+							],
+							"query": [
+								{
+									"key": "test",
+									"value": "asdasd",
+									"description": "asdasdasd",
+									"type": "text"
+								},
+								{
+									"key": "asdasd",
+									"value": "asdasd",
+									"type": "text",
+									"disabled": true
+								}
 							]
 						},
 						"description": "Test"
